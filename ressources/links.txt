@@ -1,0 +1,4 @@
+https://medium.com/@4984_30211/elf-format-toolbox-ee110fe987ba
+https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html
+https://docs.oracle.com/cd/E19683-01/816-1386/6m7qcoblj/index.html
+https://cirosantilli.com/elf-hello-world
