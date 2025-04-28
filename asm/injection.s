@@ -6,7 +6,7 @@ section .text
 
 print_woody:
     push rdi
-
+    
     mov rdi, 1
     lea rsi, [msg]
     mov rdx, 12 

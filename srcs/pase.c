@@ -1,17 +1,5 @@
 #include "woody.h"
 
-//fonction tmp
-void encrypt_text_section(ElfInfo *info) {
-    unsigned char *text_data = info->data + info->text_section->sh_offset;
-    size_t text_size = info->text_section->sh_size;
-    
-
-    for (size_t i = 0; i < text_size; i++)
-    {
-        text_data[i] ^= info->key[i % 16];
-    }
-}
-
 int init_elf_info(const char *filename, ElfInfo *info) {
 
     info->fd = open(filename, O_RDONLY);
